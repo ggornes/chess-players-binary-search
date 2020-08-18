@@ -1,4 +1,5 @@
 import csv
+import math
 import random
 
 from player import Player
@@ -99,10 +100,12 @@ if __name__ == '__main__':
 
     """create a list of random chess players from players[] list"""
     random_players = []
-    for i in range(0, 3):
-        n = random.randint(0, 500)
+    for i in range(0, 100):
+        n = random.randint(0, len(players)-1)
         # print(n)
         random_players.append(players[n])
+
+    random_players.append(Player('John', 'Doe', 'John Doe', ['Nowhere'], '?', '?'))
 
     """ Sort the chess players list """
     bubble_sort(players)
@@ -119,3 +122,6 @@ if __name__ == '__main__':
             # print(result)
             print("Found Player")
             players[result].print_details()
+
+        print('log(len(players), 2)')
+        print (math.log(len(players), 2))
