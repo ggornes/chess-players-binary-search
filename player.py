@@ -8,43 +8,33 @@ class Player:
         self.died = died
 
     def __lt__(self, other):
-        player1 = (self.last_name, self.first_name, self.born)
-        player2 = (other.last_name, other.first_name, other.born)
+        player = (self.last_name, self.first_name, self.born)
+        other_player = (other.last_name, other.first_name, other.born)
 
-        return player1 < player2
+        return player < other_player
 
     def __ge__(self, other):
         return not self.__lt__(other)
 
     def __gt__(self, other):
-        player1 = (self.last_name, self.first_name, self.born)
-        player2 = (other.last_name, other.first_name, other.born)
+        player = (self.last_name, self.first_name, self.born)
+        other_player = (other.last_name, other.first_name, other.born)
 
-        return player1 >= player2
+        return player >= other_player
 
     def __le__(self, other):
         return not self.__gt__(other)
 
     def __eq__(self, other):
-        player1 = (self.last_name, self.first_name, self.born)
-        player2 = (other.last_name, other.first_name, other.born)
+        player = (self.last_name, self.first_name, self.born)
+        other_player = (other.last_name, other.first_name, other.born)
 
-        return player1 == player2
+        return player == other_player
 
     def __ne__(self, other):
         return not self.__eq__(other)
 
     def print_details(self):
-        countries_string = ''
-        if (len(self.countries) > 1):
-            for c in self.countries:
-                # print(c)
-                countries_string += c + ' , '
-        else:
-            countries_string = self.countries[0]
-
-        # print("Player details: " + self.first_name + '|' + self.last_name + '|' + countries_string + '|'
-        # + self.born + '|' + self.died)
         print(' ---- PLAYER DETAILS ---')
         print('First name: ' + self.first_name)
         print('Last name: ' + self.last_name)
