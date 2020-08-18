@@ -44,8 +44,8 @@ def print_players(players):
 def bubble_sort(players):
     """
     Sorting algorithm of complexity O(n^2)
-    :param players:
-    :return:
+    :param players: players list
+    :return: sorted players list
     """
     n = len(players)
 
@@ -68,7 +68,7 @@ def binary_search(players, other_player):
     Search a sorted array by repeatedly dividing the search interval in half
     :param players: players list read from csv file
     :param other_player: a list of players to see if each one belongs to the players list
-    :return: 'm' index on the players list if player is fond, -1 if player is not found
+    :return: 'm' index on the players list if player is found, -1 if player is not found
     """
     l = 0
     h = len(players) - 1
