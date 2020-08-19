@@ -3,6 +3,7 @@ import math
 import random
 
 from player import Player
+from sort import bubble_sort, insertion_sort
 
 
 def read_data(file):
@@ -42,26 +43,6 @@ def print_players(players):
         player.print_details()
 
 
-def bubble_sort(players):
-    """
-    Sorting algorithm of complexity O(n^2)
-    :param players: players list
-    :return: sorted players list
-    """
-    n = len(players)
-
-    for i in range(n):
-        already_sorted = True
-
-        for j in range(n - i - 1):
-            if players[j].__gt__(players[j + 1]):
-                players[j], players[j + 1] = players[j + 1], players[j]
-                already_sorted = False
-
-        if already_sorted:
-            break
-
-    return players
 
 
 def binary_search(players, other_player):
@@ -100,7 +81,7 @@ if __name__ == '__main__':
 
     """create a list of random chess players from players[] list"""
     random_players = []
-    for i in range(0, 100):
+    for i in range(0, 5):
         n = random.randint(0, len(players)-1)
         # print(n)
         random_players.append(players[n])
