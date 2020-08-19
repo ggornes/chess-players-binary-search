@@ -1,9 +1,10 @@
 import csv
 import math
 import random
+import sort
+import search
 
 from player import Player
-from sort import bubble_sort, insertion_sort
 
 
 def read_data(file):
@@ -33,47 +34,6 @@ def read_data(file):
     return players
 
 
-def print_players(players):
-    """
-    print all players details
-    :param players:
-    :return: void
-    """
-    for player in players:
-        player.print_details()
-
-
-
-
-def binary_search(players, other_player):
-    """
-    Search a sorted array by repeatedly dividing the search interval in half
-    :param players: players list read from csv file
-    :param other_player: a list of players to see if each one belongs to the players list
-    :return: 'm' index on the players list if player is found, -1 if player is not found
-    """
-    l = 0
-    h = len(players) - 1
-    c = 0
-
-    while l <= h:
-        m = l + (h - l) // 2
-
-        if players[m].__eq__(other_player):
-            print('Number of tires: ' + str(c))
-            return m
-
-        elif players[m].__lt__(other_player):
-            l = m + 1
-
-        else:
-            h = m - 1
-        c += 1
-
-    print('Number of tires: ' + str(c))
-    return -1
-
-
 if __name__ == '__main__':
     """ Read csv files """
     players = read_data('data/chess-players-2.csv')
@@ -83,26 +43,25 @@ if __name__ == '__main__':
     random_players = []
     for i in range(0, 5):
         n = random.randint(0, len(players)-1)
-        # print(n)
         random_players.append(players[n])
 
     random_players.append(Player('John', 'Doe', 'John Doe', ['Nowhere'], '?', '?'))
 
     """ Sort the chess players list """
-    bubble_sort(players)
+    sort.insertion_sort(players)
 
     """ Search for each player in random_players List """
     for op in random_players:
 
         print('------ Searching: ' + op.first_name + ' ' + op.last_name)
-        result = binary_search(players, op)
+
+        result = search.binary_search(players, op)
 
         if result == -1:
             print("Could not find player")
         else:
-            # print(result)
             print("Found Player")
             players[result].print_details()
 
-        print('log(len(players), 2)')
-        print (math.log(len(players), 2))
+        # print('log(len(players), 2)')
+        # print (math.log(len(players), 2))
