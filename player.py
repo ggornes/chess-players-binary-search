@@ -40,6 +40,6 @@ class Player:
         print('Last name: ' + self.last_name)
         print('Countries: ')
         for c in self.countries:
-            print('    ' + c)
+            print('- ' + c.strip())
         print('born: ' + self.born)
         print('death: ' + self.died)

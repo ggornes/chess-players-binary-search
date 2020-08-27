@@ -15,19 +15,18 @@ def read_data(file):
     """
     players = []
 
-    with open(file, encoding="utf8", newline='') as csv_file:
-        reader = csv.DictReader(csv_file)
+    with open(file, mode='r', encoding="utf8", newline='') as csv_file:
+        # reader = csv.DictReader(csv_file)
+        reader = csv.DictReader(csv_file, quotechar='"', quoting=csv.QUOTE_ALL, skipinitialspace=True)
         for row in reader:
             last_name = row['Last name']
             first_name = row['First name']
             full_name = row['Full name']
-            countries = row['Countries'].split('-')
+            countries = row['Countries'].split(',')
             # countries = row['Countries']
             born = row['born']
             died = row['died']
-
             player = Player(first_name, last_name, full_name, countries, born, died)
-
             players.append(player)
 
     print("Total players read from file: " + str(len(players)))
@@ -36,8 +35,9 @@ def read_data(file):
 
 if __name__ == '__main__':
     """ Read csv files """
-    players = read_data('data/chess-players-2.csv')
-    other_players = read_data('data/chess-players-subset.csv')
+    players = read_data('data/chess-players.csv')
+    print(len(players))
+    other_players = read_data('data/chess-players-2-subset.csv')
 
     """create a list of random chess players from players[] list"""
     random_players = []
