@@ -1,12 +1,123 @@
-Last name,First name,Full name,Countries,born,died
-Tseitlin,Mikhail,Mikhail TseitliTseitlin,Belarus-Russia,1947,
-Gupta,Abhijeet,Abhijeet Gupta,India,1989,
-Eljanov,Pavel,Pavel Eljanov,Ukraine,1983,
-Kolev,Atanas,Atanas Kolev,Bulgaria,1967,
-Havasi,Kornél,Kornél Havasi,Hungary,1892,1945
-Blum,Oscar,Oscar Blum,Lithuania-France,<1910,?
-Dokhoian,Yury,Yury Dokhoian,Russia,1964,
-Wells,Peter,Peter Wells,England,1965,
-Moiseenko,Alexander,Alexander Moiseenko,Ukraine,1980,
-Kelly,Brian,Brian Kelly,Ireland,1978,
-Zvjaginsev,Vadim,Vadim Zvjaginsev,Russia,1976,
+Last name, First name, Full name, Countries, born, died
+Gerlecka, Regina, Regina Gerlecka, Poland, 1913, 1983
+Darga, Klaus, Klaus Darga, Germany, 1934,
+Vygodchikov, Konstantin, Konstantin Vygodchikov, "Belarus, Russia", 1892,  1941
+Ardid, Ramón Rey, Ramón Rey Ardid, Spain, 1903, 1988
+Reinderman, Dimitri, Dimitri Reinderman, Netherlands, 1972,
+Neikirch, Oleg, Oleg Neikirch, "Georgia, Bulgaria", 1914,  1985
+Sturua, Zurab, Zurab Sturua, Georgia, 1964,
+Birnboim, Nathan, Nathan Birnboim, Israel, 1950,
+Riemann, Fritz, Fritz Riemann, Germany, 1859, 1932
+Bruzón, Lázaro, Lázaro Bruzón, Cuba, 1982,
+From, Martin Severin, Martin Severin From, Denmark, 1828, 1895
+Fahrni, Hans, Hans Fahrni, "Bohemia, Switzerland", 1874, 1939
+Ahues, Carl, Carl Ahues, Germany, 1883, 1968
+Iuldachev, Saidali, Saidali Iuldachev, Uzbekistan, 1968,
+Grob, Henri, Henri Grob, Switzerland, 1904, 1974
+Bleijkmans, Dirk, Dirk Bleijkmans, "Netherlands, Indonesia", 1875, ?
+Ipatov, Alexander, Alexander Ipatov, "Ukraine, Spain, Turkey", 1993, 
+Alburt, Lev, Lev Alburt, "Russia, US", 1945,
+Corke, Anya, Anya Corke, "England, Hong Kong", 1990,
+Rubanraut, Serge, Serge Rubanraut, "China, Australia", 1948,  2008
+Rotlewi, Gersz, Gersz Rotlewi, Poland, 1889, 1920
+Dyner, Boruch Israel, Boruch Israel Dyner, "Poland, Belgium, Israel", 1903, 1979
+Ronde, Chris de, Chris de Ronde, "Netherlands, Argentina", 1912,  1996
+Hebden, Mark, Mark Hebden, England, 1958,
+Palmer, Ryan, Ryan Palmer, Jamaica, 1974,
+Marshall, Frank, Frank Marshall, US, 1877, 1944
+Foguelman, Alberto, Alberto Foguelman, Argentina, 1923, 2013
+Nielsen, Torkil, Torkil Nielsen, Faroe Islands, 1964,
+Mieses, Samuel, Samuel Mieses, Germany, 1841, 1884
+Bilek, István, István Bilek, Hungary, 1932, 2010
+Ekenberg, Bengt, Bengt Ekenberg, Sweden, 1912, 1986
+Kagan, Bernhard, Bernhard Kagan, "Poland, Germany", 1866, 1932
+Guggenberger, Ilse, Ilse Guggenberger, Colombia, 1942,
+Marco, Georg, Georg Marco, "Romania, Austria", 1863, 1923
+Olland, Adolf Georg, Adolf Georg Olland, Netherlands, 1867, 1933
+Schmidt, Paul Felix, Paul Felix Schmidt, "Estonia, Germany, US", 1916,  1984
+Baender, Paul, Paul Baender, "Germany, Bolivia", 1906, 1985
+Zukertort, Johannes, Johannes Zukertort, "Poland, Germany, England", 1842,  1888
+Balashov, Yuri, Yuri Balashov, Russia, 1949,
+Vladimirov, Evgeny, Evgeny Vladimirov, Kazakhstan, 1957,
+Zagrebelny, Sergey, Sergey Zagrebelny, Uzbekistan, 1965,
+Chanda, Sandipan, Sandipan Chanda, India, 1983,
+Bauer, Johann Hermann, Johann Hermann Bauer, "Bohemia, Austria", 1861, 1891
+Drezga, Tihomil, Tihomil Drezga, "Croatia, US", 1903, 1981
+An, Yangfeng, An Yangfeng, China, 1963,
+Wang, Yu, Wang Yu, China, 1982,
+Blake, Joseph Henry, Joseph Henry Blake, England, 1859, 1951
+Caoili, Arianne, Arianne Caoili, Australia, 1986, 2020
+Hebert, Jean, Jean Hebert, Canada, 1957,
+Gashimov, Vugar, Vugar Gashimov, Azerbaijan, 1986, 2014
+Serper, Gregory, Gregory Serper, "Uzbekistan, US", 1969, 
+Judd, Max, Max Judd, "Poland, US", 1851, 1906
+Smyslov, Vasily Osipovich, Vasily Osipovich Smyslov, Russia, 1881, 1943
+Mikhalevski, Victor, Victor Mikhalevski, "Belarus, Israel", 1972, 
+Starr, Nava, Nava Starr, "Latvia, Canada", 1949, 
+Geller, Uzi, Uzi Geller, Israel, 1931,
+Réthy, Pál, Pál Réthy, Hungary, 1905, 1962
+Hossain, Enamul, Enamul Hossain, Bangladesh, 1981,
+Vuković, Vladimir, Vladimir Vuković, Croatia, 1898, 1975
+Wen, Yang, Wen Yang, China, 1988,
+Lazarević, Milunka, Milunka Lazarević, Serbia, 1932,
+Roodzant, Catharina, Catharina Roodzant, Netherlands, 1896, 1999
+Mohr, Stefan, Stefan Mohr, Germany, 1967,
+Jaenisch, Carl, Carl Jaenisch, "Finland, Russia", 1813, 1872
+Nadanian, Ashot, Ashot Nadanian, Armenia, 1972,
+Belakovskaia, Anjelina, Anjelina Belakovskaia, "Ukraine, US", 1969,
+Kosintseva, Tatiana, Tatiana Kosintseva, Russia, 1986,
+Eliskases, Erich, Erich Eliskases, "Austria, Germany, Argentina", 1913, 1997
+Pogorieły, Henryk, Henryk Pogorieły, Poland, 1908, 1943
+Golombek, Harry, Harry Golombek, England, 1911, 1995
+Gladig, Matteo, Matteo Gladig, Italy, 1880, 1915
+Sloth, Jørn, Jørn Sloth, Denmark, 1944,
+Kuzubov, Yuriy, Yuriy Kuzubov, Ukraine, 1990,
+Wegemund, Otto, Otto Wegemund, Germany, 1870, 1928
+Nagy, Géza, Géza Nagy, Hungary, 1892, 1953
+Fedorchuk, Sergey, Sergey Fedorchuk, Ukraine, 1981,
+Smerdon, David, David Smerdon, Australia, 1984,
+Chen, De, Chen De, China, 1949,
+Smejkal, Jan, Jan Smejkal, Czechoslovakia, 1946,
+Xie, Jun, Xie Jun, China, 1970,
+Donaldson, Elena, Elena Donaldson, "Russia, Georgia, US", 1957,
+Arakhamia-Grant, Ketevan, Ketevan Arakhamia-Grant, Georgia, 1968,
+Novikov, Igor, Igor Novikov, "Ukraine, US", 1962, 
+Grigoriev, Nikolay, Nikolay Grigoriev, Russia, 1895, 1935
+Flesch, János, János Flesch, Hungary, 1933, 1983
+Baird, David Graham, David Graham Baird, US, 1854, 1913
+Amin, Bassem, Bassem Amin, Egypt, 1988,
+Zhao, Xue, Zhao Xue, China, 1985,
+Smirnov, Pavel, Pavel Smirnov, Russia, 1982,
+Denker, Arnold, Arnold Denker, US, 1914, 2005
+Averbakh, Yuri, Yuri Averbakh, Russia, 1922,
+Keene, Raymond, Raymond Keene, England, 1948,
+Gotthilf, Solomon, Solomon Gotthilf, Russia, 1903, 1967
+Postny, Evgeny, Evgeny Postny, Israel, 1981,
+Noteboom, Daniël, Daniël Noteboom, Netherlands, 1910, 1932
+Kokarev, Dmitry, Dmitry Kokarev, Russia, 1982,
+Soltis, Andrew, Andrew Soltis, US, 1947,
+Petrosian, Davit G., Davit G. Petrosian, Armenia, 1984,
+Palac, Mladen, Mladen Palac, Croatia, 1971,
+Dückstein, Andreas, Andreas Dückstein, "Hungary, Austria", 1927,
+Zatulovskaya, Tatiana, Tatiana Zatulovskaya, "Azerbaijan, Russia, Israel", 1935,  2017
+Wohl, Aleksandar, Aleksandar Wohl, Australia, 1963,
+Shirazi, Kamran, Kamran Shirazi, "Iran, US, France", 1952, 
+Gasanov, Eldar, Eldar Gasanov, Ukraine, 1982,
+Blumin, Boris, Boris Blumin, "Russia, Canada, US", 1907, 1998
+Schories, Georg, Georg Schories, Germany, 1874, 1934
+Rice, Isaac, Isaac Rice, US, 1850, 1915
+"Bardeleben, von", Curt, Curt von Bardeleben, Germany, 1861, 1924
+Stanec, Nikolaus, Nikolaus Stanec, Austria, 1968,
+Ascharin, Andreas, Andreas Ascharin, "Estonia, Latvia", 1843, 1896
+Greiff, Boris De, Boris De Greiff, Colombia, 1930, 2011
+Silman, Jeremy, Jeremy Silman, US, 1954,
+Leonardo, Giovanni, Giovanni Leonardo, Italy, 1542, 1587
+Riumin, Nikolai, Nikolai Riumin, Russia, 1908, 1942
+Kraemer, Adolf, Adolf Kraemer, Germany, 1898, 1972
+Goltz, Alexander Ferdinand von der, Alexander Ferdinand von der Goltz, Germany, 1819, 1858
+Dimer, Julius, Julius Dimer, Germany, 1871, 1945
+Zemgalis, Elmārs, Elmārs Zemgalis, "Latvia, US", 1923,  2014
+Malaniuk, Vladimir, Vladimir Malaniuk, "Russia, Ukraine", 1957, 
+Gundersen, Gunnar, Gunnar Gundersen, "France, Norway, Australia", 1882, 1943
+Kelly, Brian, Brian Kelly, Ireland, 1978,
+Zvjaginsev, Vadim, Vadim Zvjaginsev, Russia, 1976,
