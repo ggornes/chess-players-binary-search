@@ -12,16 +12,16 @@ def binary_search(array, element):
     while l <= h:
         m = l + (h - l) // 2
 
-        if array[m].__eq__(element):
-            print('Number of tires: ' + str(c))
+        if array[m] == element:
+            print('Number of tries: ' + str(c))
             return m
 
-        elif array[m].__lt__(element):
+        elif array[m] < element:
             l = m + 1
 
         else:
             h = m - 1
         c += 1
 
-    print('Number of tires: ' + str(c))
+    print('Number of tries: ' + str(c))
     return -1
