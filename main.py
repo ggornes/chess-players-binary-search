@@ -41,9 +41,11 @@ if __name__ == '__main__':
 
     """create a list of random chess players from players[] list"""
     random_players = []
-    for i in range(0, 5):
-        n = random.randint(0, len(players)-1)
-        random_players.append(players[n])
+    n = int(input("Enter number of random selected players from the list to search: "))
+
+    for i in range(0, n):
+        index = random.randint(0, len(players)-1)
+        random_players.append(players[index])
 
     random_players.append(Player('John', 'Doe', 'John Doe', ['Nowhere'], '?', '?'))
 
