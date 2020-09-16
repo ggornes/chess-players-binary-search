@@ -20,7 +20,7 @@ class Player:
         player = (self.last_name, self.first_name, self.born)
         other_player = (other.last_name, other.first_name, other.born)
 
-        return player >= other_player
+        return player > other_player
 
     def __le__(self, other):
         return not self.__gt__(other)
